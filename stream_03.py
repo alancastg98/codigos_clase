@@ -15,11 +15,11 @@ from scipy.stats import skew, kurtosis, chi2
 
 
 # input
-ric = '^VIX' # DBK.DE ^IXIC MXN=X ^STOXX ^S&P500 ^VIX
+ric = 'RDSa.AS' # DBK.DE ^IXIC MXN=X ^STOXX ^S&P500 ^VIX
 
 # get market data
 # remember to modify the path to match your own directory
-path = 'C:\\Users\Meva\\.spyder-py3\\data\\' + ric + '.csv' 
+path = 'C:\\Users\\alanj\\OneDrive\\Documents\\GitHub\\homework-0-alan-castg98\\data\\' + ric + '.csv' 
 table_raw = pd.read_csv(path)
 
 # create table of returns
